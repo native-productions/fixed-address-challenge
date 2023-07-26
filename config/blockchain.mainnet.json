@@ -1,0 +1,162 @@
+[
+  {
+    "id": "ethereum",
+    "enabled": false,
+    "nativeCurrency": "ETH",
+    "nativeDecimals": "18",
+    "explorer": "https://etherscan.io/",
+    "rpc": {
+      "defaultConnection": "https",
+      "defaultEndpoint": "drpc",
+      "endpoints": [
+        {
+          "id": "drpc",
+          "https": "http://eth.drpc.org",
+          "wss": null
+        },
+        {
+          "id": "llamarpc",
+          "https": "https://eth.llamarpc.com",
+          "wss": null
+        }
+      ]
+    },
+    "chainId": 1,
+    "networkId": 1
+  },
+  {
+    "id": "smartchain",
+    "enabled": true,
+    "nativeCurrency": "BNB",
+    "nativeDecimals": "18",
+    "explorer": "https://bscscan.com/",
+    "rpc": {
+      "defaultConnection": "https",
+      "defaultEndpoint": "ninicoin",
+      "endpoints": [
+        {
+          "id": "ninicoin",
+          "https": "https://bsc-dataseed1.ninicoin.io",
+          "wss": null
+        },
+        {
+          "id": "Defibit2",
+          "https": "https://bsc-dataseed2.defibit.io/",
+          "wss": null
+        },
+        {
+          "id": "Defibit1",
+          "https": "https://bsc-dataseed1.defibit.io/",
+          "wss": null
+        }
+      ]
+    },
+    "chainId": 56,
+    "networkId": 56
+  },
+  {
+    "id": "polygon",
+    "enabled": false,
+    "nativeCurrency": "MATIC",
+    "nativeDecimals": "18",
+    "explorer": "https://polygonscan.com/",
+    "rpc": {
+      "defaultConnection": "https",
+      "defaultEndpoint": "drpc",
+      "endpoints": [
+        {
+          "id": "drpc",
+          "https": "https://polygon.drpc.org",
+          "wss": null
+        },
+        {
+          "id": "polygon-rpc",
+          "https": "https://polygon-rpc.com",
+          "wss": null
+        },
+        {
+          "id": "matic-network",
+          "https": "https://rpc-mainnet.matic.network",
+          "wss": null
+        }
+      ]
+    },
+    "chainId": 137,
+    "networkId": 137
+  },
+  {
+    "id": "avalanche",
+    "enabled": false,
+    "nativeCurrency": "AVAX",
+    "nativeDecimals": "18",
+    "explorer": "https://avascan.info/",
+    "rpc": {
+      "defaultConnection": "https",
+      "defaultEndpoint": "avax-network",
+      "endpoints": [
+        {
+          "id": "avax-network",
+          "https": "https://api.avax.network/ext/bc/C/rpc",
+          "wss": null
+        },
+        {
+          "id": "meowrpc",
+          "https": "https://avax.meowrpc.com",
+          "wss": null
+        }
+      ]
+    },
+    "chainId": 43114,
+    "networkId": 43114
+  },
+  {
+    "id": "fantom",
+    "enabled": false,
+    "nativeCurrency": "FTM",
+    "nativeDecimals": "18",
+    "explorer": "https://ftmscan.com/",
+    "rpc": {
+      "defaultConnection": "https",
+      "defaultEndpoint": "fantom-network",
+      "endpoints": [
+        {
+          "id": "fantom-network",
+          "https": "https://rpcapi.fantom.network",
+          "wss": null
+        },
+        {
+          "id": "publicnode",
+          "https": "https://fantom.publicnode.com",
+          "wss": null
+        }
+      ]
+    },
+    "chainId": 250,
+    "networkId": 250
+  },
+  {
+    "id": "arbitrum",
+    "enabled": false,
+    "nativeCurrency": "ARRB",
+    "nativeDecimals": "18",
+    "explorer": "https://arbiscan.io/",
+    "rpc": {
+      "defaultConnection": "https",
+      "defaultEndpoint": "arbitrum-io",
+      "endpoints": [
+        {
+          "id": "arbitrum-io",
+          "https": "https://arb1.arbitrum.io/rpc",
+          "wss": null
+        },
+        {
+          "id": "meowrpc",
+          "https": "https://arbitrum.meowrpc.com",
+          "wss": null
+        }
+      ]
+    },
+    "chainId": 42161,
+    "networkId": 42161
+  }
+]

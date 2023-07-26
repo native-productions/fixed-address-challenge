@@ -1,0 +1,167 @@
+[
+  {
+    "id": "ethereum",
+    "enabled": false,
+    "nativeCurrency": "ETH",
+    "nativeDecimals": "18",
+    "explorer": "https://etherscan.io/",
+    "rpc": {
+      "defaultConnection": "https",
+      "defaultEndpoint": "publicnode",
+      "endpoints": [
+        {
+          "id": "publicnode",
+          "https": "https://ethereum-goerli.publicnode.com",
+          "wss": null
+        },
+        {
+          "id": "gateway",
+          "https": "https://rpc.goerli.eth.gateway.fm",
+          "wss": null
+        }
+      ]
+    },
+    "chainId": 5,
+    "networkId": 5
+  },
+  {
+    "id": "smartchain",
+    "enabled": true,
+    "nativeCurrency": "BNB",
+    "nativeDecimals": "18",
+    "explorer": "https://testnet.bscscan.com/",
+    "rpc": {
+      "defaultConnection": "https",
+      "defaultEndpoint": "publicnode",
+      "endpoints": [
+        {
+          "id": "publicnode",
+          "https": "https://bsc-testnet.publicnode.com",
+          "wss": null
+        },
+        {
+          "id": "binanceOr11",
+          "https": "https://data-seed-prebsc-1-s1.bnbchain.org:8545",
+          "wss": null
+        },
+        {
+          "id": "binanceOr12",
+          "https": "https://data-seed-prebsc-1-s2.bnbchain.org:8545",
+          "wss": null
+        },
+        {
+          "id": "binanceOr21",
+          "https": "https://data-seed-prebsc-2-s1.bnbchain.org:8545",
+          "wss": null
+        },
+        {
+          "id": "binanceOr22",
+          "https": "https://data-seed-prebsc-2-s2.bnbchain.org:8545",
+          "wss": null
+        }
+      ]
+    },
+    "chainId": 97,
+    "networkId": 97
+  },
+  {
+    "id": "polygon",
+    "enabled": false,
+    "nativeCurrency": "MATIC",
+    "nativeDecimals": "18",
+    "explorer": "https://polygonscan.com/",
+    "rpc": {
+      "defaultConnection": "https",
+      "defaultEndpoint": "publicnode",
+      "endpoints": [
+        {
+          "id": "publicnode",
+          "https": "https://polygon-mumbai-bor.publicnode.com",
+          "wss": "wss://speedy-nodes-nyc.moralis.io/ed5a84c223ee04ddaea7062e/bsc/testnet/ws"
+        },
+        {
+          "id": "omniatech",
+          "https": "https://endpoints.omniatech.io/v1/matic/mumbai/public",
+          "wss": null
+        }
+      ]
+    },
+    "chainId": 80001,
+    "networkId": 80001
+  },
+  {
+    "id": "avalanche",
+    "enabled": false,
+    "nativeCurrency": "AVAX",
+    "nativeDecimals": "18",
+    "explorer": "https://avascan.info/",
+    "rpc": {
+      "defaultConnection": "https",
+      "defaultEndpoint": "avax-test",
+      "endpoints": [
+        {
+          "id": "avax-test",
+          "https": "https://api.avax-test.network/ext/bc/C/rpc",
+          "wss": null
+        },
+        {
+          "id": "publicnode",
+          "https": "https://avalanche-fuji-c-chain.publicnode.com",
+          "wss": null
+        }
+      ]
+    },
+    "chainId": 43113,
+    "networkId": 43113
+  },
+  {
+    "id": "fantom",
+    "enabled": false,
+    "nativeCurrency": "FTM",
+    "nativeDecimals": "18",
+    "explorer": "https://ftmscan.com/",
+    "rpc": {
+      "defaultConnection": "https",
+      "defaultEndpoint": "fantom-network",
+      "endpoints": [
+        {
+          "id": "fantom-network",
+          "https": "https://rpc.testnet.fantom.network",
+          "wss": null
+        },
+        {
+          "id": "publicnode",
+          "https": "https://fantom-testnet.publicnode.com",
+          "wss": null
+        }
+      ]
+    },
+    "chainId": 4002,
+    "networkId": 4002
+  },
+  {
+    "id": "arbitrum",
+    "enabled": false,
+    "nativeCurrency": "ARRB",
+    "nativeDecimals": "18",
+    "explorer": "https://arbiscan.io/",
+    "rpc": {
+      "defaultConnection": "https",
+      "defaultEndpoint": "arbitrum-io",
+      "endpoints": [
+        {
+          "id": "arbitrum-io",
+          "https": "https://goerli-rollup.arbitrum.io/rpc",
+          "wss": null
+        },
+        {
+          "id": "publicnode",
+          "https": "https://arbitrum-goerli.publicnode.com",
+          "wss": null
+        }
+      ]
+    },
+    "chainId": 421613,
+    "networkId": 421613
+  }
+]
